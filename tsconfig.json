@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "sourceMap": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "types": ["node"],
+    "paths": {
+      "core/*": ["src/core/*"],
+      "web/*": ["src/platforms/web/*"],
+    }
+  },
+  "include": [
+    "src",
+    "typescript"
+  ],
+  "exclude": [
+    "node_modules",
+    "types"
+  ]
+}
